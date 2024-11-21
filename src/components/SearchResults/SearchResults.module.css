@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.h2 {
+    font-size: 1.875rem;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 95%;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+.panel {
+    color: white;
+    width: 600px;
+    background-color: rgba(13, 27, 13, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.searchResults {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.yourPlaylists {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    border-top: 4px solid rgb(134, 173, 142);
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width: 680px) {
+    .panel {
+        max-width: 100%;
+    }
+
+    .h2 {
+        font-size: 1.5rem;
+    }
+}

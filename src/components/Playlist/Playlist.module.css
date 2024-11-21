@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.h2 {
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 95%;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.panel {
+    color: white;
+    width: 600px;
+    background-color: rgba(13, 27, 13, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+@media only screen and (max-width: 680px) {
+    .panel {
+        max-width: 100%;
+    }
+
+    .h2 {
+        font-size: 1.5rem;
+    }
+}
+
+.buttons {
+    display: flex;
+    gap: 15px
+}
+
+.saveButton {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(13, 78, 22);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.saveButton:hover {
+    cursor: pointer;
+    background-color: rgb(7, 39, 11);
+}
+
+.saveButton:active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(13, 78, 22);
+}
+
+.clearButton {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(129, 27, 27);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.clearButton:hover {
+    cursor: pointer;
+    background-color: rgb(63, 13, 13);
+}
+
+.clearButton:active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(129, 27, 27);
+}

@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.track {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid white;
+}
+
+.trackName {
+    font-size: 1.125rem;
+    margin-bottom: 5px;
+}
+
+.trackDetails {
+    color: rgb(189, 189, 189);
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.trackDivider {
+    font-size: 1.375rem;
+}
+
+.trackButton {
+    line-height: 1;
+    padding: 10px;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    
+}
+
+
+.trackButton:hover {
+    cursor: pointer;
+    background-color: rgb(20, 20, 20);
+}
+
+.trackButton:active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(53, 53, 53);
+}
