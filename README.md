@@ -1,3 +1,6 @@
+# WARNING
+**Your Spotify access token will be exposed in the web app's local storage. It is highly recommended that you DO NOT USE YOUR MAIN SPOTIFY ACCOUNT**
+
 ## Getting Started
 
 1. Clone the repository:
