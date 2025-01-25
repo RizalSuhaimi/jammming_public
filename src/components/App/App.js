@@ -195,7 +195,7 @@ function App() {
     // Clear the playlist data in states and localStorage
     handleClearPlaylist();
 
-    localStorage.removeItem("search_term");
+    localStorage.clear();
   };
 
   // Exit app procedure
@@ -214,6 +214,7 @@ function App() {
 
       // Prompt the user before they leave
       const message = "Are you sure you want to leave? Your progress will be lost.";
+      event.preventDefault();
       event.returnValue = message;
       return message;
     }
